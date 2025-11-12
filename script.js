@@ -84,9 +84,20 @@ async function vote(index, choice) {
 
   // Vai al match successivo
   renderMatch(index + 1);
+
+  fetch(VOTE_ENDPOINT, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(payload)
+})
+.then(res => res.json())
+.then(res => console.log("Voto registrato:", res))
+.catch(err => console.error("Errore invio voto:", err));
+
 }
 
 initTournament();
+
 
 
 
