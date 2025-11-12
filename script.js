@@ -1,5 +1,5 @@
 // URL della tua Web App (dallo script Google)
-const VOTE_ENDPOINT = "https://script.google.com/macros/s/AKfycbzhfRaPvyvWsTO7zswyeJJBPjsI6s-RujP_cFS0FohpP7WKkxNG7gMliLPpg-kvtyYH/exec";
+const VOTE_ENDPOINT = "https://script.google.com/macros/s/AKfycbwk5tc3NSg1kk8IEksoaTBOEraRitZstF7pjM4bWf5koCl-tvGy5scSwiHqTHWcy1vDjw/exec";
 
 // Lista dei 64 video Cloudinary
 const videos = [
@@ -87,5 +87,6 @@ async function vote(index, choice) {
 }
 
 initTournament();
+
 
 
