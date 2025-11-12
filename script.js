@@ -1,5 +1,5 @@
 // URL della tua Web App (Apps Script) – sostituisci con il tuo
-const VOTE_ENDPOINT = "https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbwk5tc3NSg1kk8IEksoaTBOEraRitZstF7pjM4bWf5koCl-tvGy5scSwiHqTHWcy1vDjw/exec/exec";
+const VOTE_ENDPOINT = "https://script.google.com/macros/s/AKfycbwk5tc3NSg1kk8IEksoaTBOEraRitZstF7pjM4bWf5koCl-tvGy5scSwiHqTHWcy1vDjw/exec";
 
 // Lista dei 4 video di test su Cloudinary
 const videos = [
@@ -95,6 +95,7 @@ function vote(index, videoA, videoB, choice) {
 
 // Avvia il torneo
 initTournament();
+
 
 
 
